@@ -188,6 +188,13 @@ header a:focus {
   opacity: 0.8;
 }
 
+header img {
+  width: 80vm;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 nav {
   position: sticky;
   top: 0;
@@ -323,6 +330,8 @@ section ol {
 
 section ol li {
   position: relative;
+  width: 70%;
+  margin: auto;
 }
 
 section ol li::before {
