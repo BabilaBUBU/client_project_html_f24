@@ -349,11 +349,13 @@ section ol li::after {
   background: var(--clr-theme-100);
 }
 
-main footer {
+footer {
   text-align: center;
+  margin: auto;
+  margin-top: 2rem;
 }
 
-main footer h3 {
+footer h3 {
   font-size: 1.4rem;
   padding-bottom: 0.4rem;
   margin-bottom: 1rem;
@@ -365,15 +367,15 @@ main footer h3 {
   margin-right: auto;
 }
 
-main footer a {
+footer a {
   font-size: 1.4rem;
   color: var(--clr-theme-100);
   padding: 0.5rem;
   white-space: nowrap;
 }
 
-main footer a:hover,
-main footer a:focus {
+footer a:hover,
+footer a:focus {
   opacity: 1;
   color: hsl(295, 85%, 85%);
 }
