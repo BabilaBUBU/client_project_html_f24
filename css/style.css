@@ -240,15 +240,14 @@ nav a:focus {
   visibility: hidden;
 }
 
-@media (min-width: 39.7em) {
-  nav {
+nav {
     height: 3rem;
-  }
-  :target::before {
+}
+:target::before {
     height: 3rem;
     margin-top: -3rem;
-  }
 }
+
 
 main * + * {
   margin-top: 1.2rem;
@@ -291,8 +290,7 @@ section ul {
   padding: 0;
 }
 
-@media (min-width: 33em) {
-  section ul {
+section ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -302,7 +300,6 @@ section ul {
         -ms-flex-pack: center;
             justify-content: center;
     gap: 1rem;
-  }
 }
 
 section li {
