@@ -45,6 +45,46 @@
             <p>You can contact us via phone: <a href="tel:+17349362794">734-936-2794</a></p>
             <p>We are open by appointment, please do not forget! <a href="https://mbc.studentlife.umich.edu/contact/">Contact Us</a> </p> 
         </section>
+
+        <section>
+            <h2>Help Us Do Better</h2>
+            <form action="https://formspree.io/f/xzzberkj" method="POST">
+                <fieldset>
+                    <legend>Dining Hall Feedback Form</legend>
+                    
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" autocomplete="name" required>
+        
+                    <label for="dining-hall">Dining Hall:</label>
+                    <select id="dining-hall" name="dining-hall" required>
+                        <option value="" disabled selected>Select a dining hall</option>
+                        <option value="north">NorthQuad Dining Hall</option>
+                        <option value="south">SouthQuad Dining Hall</option>
+                        <option value="east">EastQuad Dining Hall</option>
+                        <option value="mj">Mosher-Jordan Dining Hall</option>
+                    </select>
+        
+                    <label for="meal-time">Meal Time:</label>
+                    <select id="meal-time" name="meal-time" required>
+                        <option value="" disabled selected>Select a meal time</option>
+                        <option value="breakfast">Breakfast</option>
+                        <option value="lunch">Lunch</option>
+                        <option value="dinner">Dinner</option>
+                    </select>
+            
+                    <label for="rating">Overall Rating:</label>
+                    <input type="range" id="rating" name="rating" min="1" max="10" required>
+            
+                    <label for="favorite-dish">Favorite Dish:</label>
+                    <input type="text" id="favorite-dish" name="favorite-dish">
+        
+                    <label for="feedback">Feedback:</label>
+                    <textarea id="feedback" name="feedback" rows="4" required></textarea>
+                    
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </section>
     </main>
 
     <footer class="site-footer">
