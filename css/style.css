@@ -212,5 +212,13 @@ footer a:hover {
   section img {
     margin-bottom: 2rem;
   }
+
+  footer div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-items: space-evenly;
+  }
   
 }
