@@ -166,3 +166,51 @@ footer a {
 footer a:hover {
   opacity: 0.8;
 }
+
+@media screen and (min-width: 1200px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  header ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  header nav a {
+    font-size: 1.5rem;
+  }
+
+  header img {
+    width: 15vw;
+  }
+
+  body {
+    font-size: 1.5rem;
+    font-family: var(--font-primary);
+    background: var(--clr-theme-900);
+    color: white;
+    line-height: 1.6;
+    min-height: 100vh;
+    padding: 1rem;
+  }
+
+  main {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  section {
+    padding: 2rem;
+  }
+
+  section img {
+    margin-bottom: 2rem;
+  }
+  
+}
