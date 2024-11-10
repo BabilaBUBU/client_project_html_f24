@@ -241,6 +241,7 @@ input[type="range"] {
 
   section {
     padding: 2rem;
+    background: linear-gradient(var(--clr-theme-700), var(--clr-theme-900));
   }
 
   section img {
