@@ -209,7 +209,7 @@ input[type="range"] {
   margin: 10px 0;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 800px) {
   nav a.active {
     border-bottom: 2px solid var(--clr-theme-300);
   }
