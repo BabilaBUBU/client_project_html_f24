@@ -257,5 +257,30 @@ input[type="range"] {
     justify-content: space-evenly;
     justify-items: space-evenly;
   }
+
+  .faq div {
+    margin-bottom: 1rem;
+  }
+
+  .faq button {
+    background-color: var(--clr-theme-100);
+    color: var(--clr-theme-900);
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    padding: 1rem 1rem;
+    text-align: left;
+    font-size: 1.15rem;
+  }
+
+  .faq button:hover {
+    background-color: var(--clr-theme-300);
+  }
+
+  .faq p {
+    color: white;
+    padding: 0.5rem;
+    display: none;
+  }
   
 }

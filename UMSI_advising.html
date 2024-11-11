@@ -44,6 +44,41 @@
                 <img src="images/professor_with_student.jpg" alt="The advisor talking with a studeng" style="max-width: 400px">
             </figure>
         </section>
+
+        <section class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div>
+                <button onclick="show_answer(this)">What academic support services are available?</button>
+                <p style="display:none;">
+                    We offer tutoring in a variety of subjects, academic counseling, and access to library resources and research assistance.
+                </p>
+            </div>
+            <div>
+                <button onclick="show_answer(this)">How can I schedule a meeting with an academic advisor?</button>
+                <p style="display:none;">
+                    Meetings with academic advisors can be scheduled through our online portal or by contacting the advising office directly.
+                </p>
+            </div>
+            <div>
+                <button onclick="show_answer(this)">Are there resources for managing stress and mental health?</button>
+                <p style="display:none;">
+                    Yes, we provide workshops on stress management, personal counseling services, and referrals to mental health professionals.
+                </p>
+            </div>
+        </section>
+        
+        <script>
+        function show_answer(button) {
+            var answer = button.nextElementSibling;
+            if (answer.style.display === 'block') {
+                answer.style.display = 'none';
+            } else {
+                answer.style.display = 'block';
+            }
+        }
+
+        </script>
+        
     </main>
     
     <footer class="site-footer">
