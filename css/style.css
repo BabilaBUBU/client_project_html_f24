@@ -258,7 +258,6 @@ input[type="range"] {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    justify-items: space-evenly;
   }
 
   .faq div {
