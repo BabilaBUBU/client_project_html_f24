@@ -114,6 +114,11 @@ nav a {
   text-decoration: none;
 }
 
+nav a.active {
+  font-weight: bold;
+  border-bottom: 2px solid var(--clr-theme-300);
+}
+
 /* Main content area */
 main {
   display: grid;
@@ -205,6 +210,10 @@ input[type="range"] {
 }
 
 @media screen and (min-width: 1000px) {
+  nav a.active {
+    border-bottom: 2px solid var(--clr-theme-300);
+  }
+
   header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
